@@ -116,7 +116,7 @@ html, body {
 .box-inside h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
@@ -128,9 +128,9 @@ html, body {
 }
 
 .box-inside p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
 }
 
@@ -190,7 +190,22 @@ html, body {
 
 .box-inside p.urgency {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #000000;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.box-inside p.date{
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.box-inside p.cta{
+    font-size: 1.2rem;
+    color: #000000;
     text-align: center;
     margin-top: 1rem;
     font-weight: bold;
@@ -318,7 +333,7 @@ input::placeholder {
     .box-inside p {
         font-size: 0.9rem;
     }
-    
+
     .box-inside p.details {
         font-size: 1rem;
     }
