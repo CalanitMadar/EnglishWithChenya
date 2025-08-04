@@ -116,7 +116,7 @@ html, body {
 .box-inside h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -130,7 +130,7 @@ html, body {
 .box-inside p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -190,14 +190,14 @@ html, body {
 
 .box-inside p.urgency {
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-top: 1rem;
     font-weight: bold;
 }
 .box-inside p.date{
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-top: 1rem;
     font-weight: bold;
@@ -205,7 +205,7 @@ html, body {
 
 .box-inside p.cta{
     font-size: 1.2rem;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin-top: 1rem;
     font-weight: bold;
