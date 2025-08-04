@@ -316,82 +316,57 @@ input::placeholder {
 }
 
 /* רספונסיביות - נייד */
+/* רספונסיביות - נייד */
 @media (max-width: 480px) {
     .box-inside {
-        width: 90%;
+        width: 90%; /* קריטי: הגדרת רוחב ספציפית למובייל */
         padding: 1rem;
+        top: 20px; /* מיקום התוכן גבוה יותר */
+        position: relative; /* שינוי מ-absolute ל-relative */
+        transform: none; /* ביטול ה-transform כדי למנוע בעיות רינדור */
+        left: auto; /* ביטול המיקום משמאל */
     }
     
     .box-inside h1 {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
     
     .box-inside h2 {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
+        color: #644b64; /* שינוי צבע לקריאות טובה יותר */
     }
     
-    .box-inside p {
-        font-size: 0.9rem;
+    .box-inside p, .box-inside ul {
+        font-size: 1.1rem;
+        text-align: right; /* יישור לימין לכל הטקסטים הרגילים */
     }
 
-    .box-inside p.details {
-        font-size: 1rem;
-    }
-    
-    .box-inside p.urgency {
-        font-size: 1rem;
-    }
-    
     .benefits li {
         padding: 1rem 1rem 1rem 2.5rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     
-    .benefits li::before {
-        width: 20px;
-        height: 20px;
-        right: 1rem;
-        font-size: 12px;
-    }
-    
-    .circle-and-girl-container {
-        width: 300px;
-        height: 300px;
-        left: 10%;
+    .circle-and-girl-container, .dots, .dots2 {
+        display: none; /* הסתרת אלמנטים מיותרים במובייל */
     }
     
     .circle-top {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .dots {
-        top: 20px;
-        left: 10px;
-        gap: 15px;
-    }
-    
-    .dots2 {
-        top: 400px;
-        right: 10px;
-        gap: 15px;
-    }
-    
-    .dot {
-        width: 6px;
-        height: 6px;
+        display: none; /* הסתרת העיגול העליון כדי לפנות עוד שטח */
     }
     
     .registration-form h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        color: #2c3473; /* צבע כהה וקריא */
     }
     
     .registration-form input {
-        font-size: 14px;
+        font-size: 1rem;
+        padding: 0.8rem;
     }
     
     .registration-form button {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding: 1rem;
     }
 }
 
