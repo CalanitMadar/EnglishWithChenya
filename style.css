@@ -145,7 +145,7 @@ html, body {
 
 .benefits li {
     background: linear-gradient(135deg, rgba(189, 55, 66, 0.1), rgba(44, 52, 115, 0.05));
-    padding: 1.5rem 1.5rem 1.5rem 4rem;
+    padding: 1.5rem 4rem 1.5rem 1.5rem;
     border-radius: 12px;
     font-size: 1.1rem;
     font-weight: 500;
@@ -343,7 +343,7 @@ input::placeholder {
     }
     
     .benefits li {
-        padding: 1rem 1rem 1rem 2.5rem;
+        padding: 1.5rem 4rem 1.5rem 1.5rem;
         font-size: 0.9rem;
     }
     
